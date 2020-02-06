@@ -13,11 +13,11 @@ Implementation and Data repository for
 ## Results
 ### Geological Complexity
 Geological Complexity Map of Carajás Mineral Province, Pará, Brazil.
-![Beadpack Comparison](https://github.com/LukasMosser/PorousMediaGan/blob/master/paper/figures/beadpack_comparison.png)
+
+<img align="left" width="50%" height="50%" src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/GeologicalComplexity/imgs/GeologicalComplexity_Results.jpg"/>
 ### SMOTE
 
 
-<img align="center" width="100%" height="100%" src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/imgs/Hodkiewicz.png"/>
 
 ## Methodology
 ### Geological Complexity
