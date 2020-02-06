@@ -12,12 +12,12 @@ Implementation and Data repository for
 
 ## Results
 ### Geological Complexity
-Geological Complexity Map of Carajás Mineral Province, Pará, Brazil.
+Geological Complexity Map of Carajás Mineral Province, Pará, Brazil.    
+<img align="left" width="100%" height="100%" src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/GeologicalComplexity/imgs/GeolocalComplexity_Results.jpg"/>    
+(a) Map of faults/fractures was produced by interpretation of shaded-relief images derived from the 30 m resolution Shuttle Radar Topographic Mission (SRTM) (b) Geological Complexity map
 
-<img align="left" width="100%" height="100%" src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/GeologicalComplexity/imgs/GeologicalComplexity_Results.jpg"/>
+
 ### SMOTE
-
-
 
 ## Methodology
 ### Geological Complexity
