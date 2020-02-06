@@ -17,7 +17,7 @@ Geological Complexity Map of Carajás Mineral Province, Pará, Brazil.
 ### SMOTE
 
 
-<img align="center" width="100%" height="100%" src="https://github.com/Eliasmgprado/GeologicalComplexity/blob/master/imgs/Hodkiewicz.png"/>
+<img align="center" width="100%" height="100%" src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/imgs/Hodkiewicz.png"/>
 
 ## Methodology
 ### Geological Complexity
@@ -45,7 +45,7 @@ pip install jupyter
 - We recommend the use of [anaconda](https://www.continuum.io/downloads)
 - After installing the packages Clone this repo
 ```bash
-git clone https://github.com/LukasMosser/PorousMediaGAN
+git clone https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE
 cd PorousMediaGAN
 ```
 - The codes with instructions and comments are in the `jupyter` notebooks inside the `GeologicalComplexity` and `SMOTE` folders
