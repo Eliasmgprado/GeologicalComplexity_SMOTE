@@ -21,7 +21,7 @@ Geological Complexity Map of Carajás Mineral Province, Pará, Brazil.
 
 ## Methodology
 ### Geological Complexity
-![Process Overview](https://github.com/Eliasmgprado/GeologicalComplexity/blob/master/imgs/Hodkiewicz.png)
+![Geological Complexity Methodology](https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/GeologicalComplexity/imgs/Hodkiewicz.png)
 #### References
 - Ford, A., Blenkinsop, T.G., 2008. Evaluating geological complexity and complexity gradients as controls on copper mineralisation, Mt Isa Inlier. Aust. J. Earth Sci. 55, 13–23.
 - Hodkiewicz, P., 2003, The Interplay Between Physical and Chemical Processes in the Formation of World-Class Orogenic Gold Deposits in the Eastern Goldfields Province , Western Australia.
