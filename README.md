@@ -14,7 +14,7 @@ Implementation and Data repository for
 ### Geological Complexity
 Geological Complexity Map of Carajás Mineral Province, Pará, Brazil.
 
-<img align="left" width="50%" height="50%" src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/GeologicalComplexity/imgs/GeologicalComplexity_Results.jpg"/>
+<img align="left" width="100%" height="100%" src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/GeologicalComplexity/imgs/GeologicalComplexity_Results.jpg"/>
 ### SMOTE
 
 
