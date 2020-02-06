@@ -62,5 +62,5 @@ If you use our code for your own research, we would be grateful if you cite our 
 ```
 
 ## Acknowledgement
-The code used for Geological Complexity is based on the works [Ford and Blenkinsop (2008)](https://www.tandfonline.com/doi/full/10.1080/08120090701581364) and [Hodkiewicz (2003)](https://research-repository.uwa.edu.au/en/publications/the-interplay-between-physical-and-chemical-processes-in-the-form)
+The code used for Geological Complexity is based on the works [Ford and Blenkinsop (2008)](https://www.tandfonline.com/doi/full/10.1080/08120090701581364) and [Hodkiewicz (2003)](https://research-repository.uwa.edu.au/en/publications/the-interplay-between-physical-and-chemical-processes-in-the-form)    
 and the code used for SMOTE is based on the work [Chawla et al. (2002)](https://arxiv.org/pdf/1106.1813.pdf).
