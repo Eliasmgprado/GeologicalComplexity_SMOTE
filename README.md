@@ -26,6 +26,9 @@ Geological Complexity Map of Carajás Mineral Province, Pará, Brazil.
 - Ford, A., Blenkinsop, T.G., 2008. Evaluating geological complexity and complexity gradients as controls on copper mineralisation, Mt Isa Inlier. Aust. J. Earth Sci. 55, 13–23.
 - Hodkiewicz, P., 2003, The Interplay Between Physical and Chemical Processes in the Formation of World-Class Orogenic Gold Deposits in the Eastern Goldfields Province , Western Australia.
 ### SMOTE
+![SMOTE pseudo-code](https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/SMOTE/imgs/Chawla_SMOTE.png)
+#### References
+- Chawla, N., Bowyer, K.W., Hall, L.O., Kegelmeyer, W.P., 2002. SMOTE: Synthetic minority over-sampling technique. J. Artif. Intell. Res. 16, 321–357. https://doi.org/10.1613/jair.953
 ## Instructions
 ### Pre-requisites
 - To run any of the `jupyter` notebooks follow instructions [here](http://jupyter.org/install.html) or install via pip.
