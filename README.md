@@ -2,16 +2,13 @@
 Implementation and Data repository for
 **Modeling of Cu-Au Prospectivity in the Carajás mineral province (Brazil) through Machine Learning: Dealing with Imbalanced Training Data**
 ## Authors
-[Elias M. G. Prado](mailto:lukas.mosser15@imperial.ac.uk) [Twitter](https://twitter.com/porestar)<sup>1,2</sup>
-[Carlos Roberto de Souza Filho](https://www.imperial.ac.uk/people/o.dubrule)<sup>2</sup>
-[Emmanuel John M. Carranza](https://www.imperial.ac.uk/people/m.blunt)<sup>3</sup>
-[João Gabriel Motta](https://www.imperial.ac.uk/people/m.blunt)<sup>2</sup>
-
-<sup>1</sup>*Centre for Technological Development, Geological Survey of Brazil - CPRM*
-
-<sup>2</sup>*Institute of Geosciences, University of Campinas - UNICAMP*
-
-<sup>3</sup>*Department of Geology, University of KwaZulu-Natal*
+[Elias M. G. Prado](mailto:lukas.mosser15@imperial.ac.uk) [Twitter](https://twitter.com/porestar)<sup>1,2</sup>  
+[Carlos Roberto de Souza Filho](https://www.imperial.ac.uk/people/o.dubrule)<sup>2</sup>  
+[Emmanuel John M. Carranza](https://www.imperial.ac.uk/people/m.blunt)<sup>3</sup>  
+[João Gabriel Motta](https://www.imperial.ac.uk/people/m.blunt)<sup>2</sup>  
+<sup>1</sup>*Centre for Technological Development, Geological Survey of Brazil - CPRM*  
+<sup>2</sup>*Institute of Geosciences, University of Campinas - UNICAMP*  
+<sup>3</sup>*Department of Geology, University of KwaZulu-Natal*  
 
 ## Results
 ### Geological Complexity
