@@ -20,8 +20,8 @@ Geological Complexity Map of Carajás Mineral Province (CMP), Pará, Brazil. (a)
 ### SMOTE
 Mineral Prospectivity Model Flowchart    
 <img align="left" width="100%" height="100%" src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/SMOTE/imgs/Fig4_flowchart.jpg"/><br/><br/>  
-
-
+    
+    
 Training F1 scores of SVM models. The scores are arranged by over-sampling/under-sampling rates used to generate the training data points. Models with tendency to over-fit and under-fit are highlighted inside dashed contours. Models trained with same number of mineralized and non-mineralized samples are highlighted in purple.   
 <img align="left" width="100%" height="100%" src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/SMOTE/imgs/Fig5_SVM_heatmaps_f1_train.jpg"/><br>  
 
