@@ -52,8 +52,9 @@ Success-rate and prediction-rate curves of CMP Cu-Au prospectivity models. (a) S
 #### References
 - Chawla, N., Bowyer, K.W., Hall, L.O., Kegelmeyer, W.P., 2002. SMOTE: Synthetic minority over-sampling technique. J. Artif. Intell. Res. 16, 321–357. https://doi.org/10.1613/jair.953
 ## Instructions
-### Pre-requisites
-- To run any of the `jupyter` notebooks follow instructions [here](http://jupyter.org/install.html) or install via pip.
+### Geological Complexity
+#### Pre-requisites
+- To run the `jupyter` notebooks follow instructions [here](http://jupyter.org/install.html) or install via pip.
 ```bash
 pip install jupyter
 ```
@@ -71,9 +72,47 @@ pip install jupyter
 - After installing the packages Clone this repo
 ```bash
 git clone https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE
-cd PorousMediaGAN
+cd GeologicalComplexity_SMOTE
 ```
 - The codes with instructions and comments are in the `jupyter` notebooks inside the `GeologicalComplexity` and `SMOTE` folders
+
+### SMOTE
+#### Pre-requisites
+
+- We make use of following packages:
+
+    - imbalanced-learn     0.4.3
+
+- To install the packages in ArcGis 10:
+    1. Start Windows command prompt and change your directory to your Arcgis desktop python installation (containing python.exe). Typically something like c:\python27xx\arcgis10.x\
+    2.  In the commandprompt type `python -m pip install -I scikit-learn`
+    3. Restart ArcMap
+
+- To install the packages in ArcGis Pro:
+    1. Close out of ArcGIS Pro
+    2. Navigate to the `Start Menu > All Programs > ArcGIS > ArcGIS Pro > right-click and run Python Command Prompt as Administrator`
+    3. If using Windows 10, simply type in `Python Command Prompt > right click> Open File Location> right-click and run Python Command Prompt as Administrator`
+    6. install the packages by typing in `pip install -U imbalanced-learn`
+    7. Once this is done installing, close out of the command prompt and open ArcGIS Pro
+
+- After installing the packages Clone this repo
+```bash
+git clone https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE
+cd GeologicalComplexity_SMOTE
+```
+- The `toolbox` is inside the `SMOTE` folders
+
+- To add the toolbox to ArcMap 10>:
+    1.  Open ArcMap, open `ArcToolbox` and right click in the white space and go to Add Toolbox:
+    ![](https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/SMOTE/imgs/tuto_1-1.png)
+    2. Browse to and click the toolbox inside the `SMOTE` folder.
+    3. The toolbox appears in the `Arctoolbox` pane.
+
+- To add the toolbox to ArcGis Pro:
+    1. Open ArcGis Pro, Open the `catalog view` and click `Project` or `Toolboxes` in the `Contents` pane. On the `Catalog` tab on the ribbon, in the `Create` group, click the `Add` drop-down arrow and click `Add Toolbox`.
+    2. On the `Insert` tab, in the `Project` group, click the `Toolbox` drop-down arrow Toolbox and click `Add Toolbox`.
+    3. Browse to and click the toolbox inside the `SMOTE` folder.
+    4. The toolbox appears in the `Catalog` pane and catalog view in the Toolboxes category `Toolbox` folder.
 
 ## Citation
 If you use our code for your own research, we would be grateful if you cite our publication
