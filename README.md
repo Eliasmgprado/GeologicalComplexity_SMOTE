@@ -53,6 +53,7 @@ Success-rate and prediction-rate curves of CMP Cu-Au prospectivity models. (a) S
 - Chawla, N., Bowyer, K.W., Hall, L.O., Kegelmeyer, W.P., 2002. SMOTE: Synthetic minority over-sampling technique. J. Artif. Intell. Res. 16, 321–357. https://doi.org/10.1613/jair.953
 ## Instructions
 ### Geological Complexity
+> This algorithm was implemented using `jupyter notebook`
 #### Pre-requisites
 - To run the `jupyter` notebooks follow instructions [here](http://jupyter.org/install.html) or install via pip.
 ```bash
@@ -77,6 +78,10 @@ cd GeologicalComplexity_SMOTE
 - The codes with instructions and comments are in the `jupyter` notebooks inside the `GeologicalComplexity` and `SMOTE` folders
 
 ### SMOTE
+> This is an implamentation of the SMOTE algorithm provided in [imbalanced-learn](https://imbalanced-learn.readthedocs.io/)<sup>1</sup> for ArcGis as a `toolbox`.    
+    
+<sup>1</sup> *Lemaître, G., Nogueira, F., Aridas, C.K., 2017. Imbalanced-learn: A Python Toolbox to Tackle the Curse of Imbalanced Datasets in Machine Learning. J. Mach. Learn. Res. 18, 1–5.*
+
 #### Pre-requisites
 
 - We make use of following packages:
