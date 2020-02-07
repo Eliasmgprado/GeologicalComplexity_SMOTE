@@ -14,7 +14,7 @@ with implementation of Geological complexity and SMOTE algorithms.
 ## Results
 ### Geological Complexity
 Geological Complexity Map of Carajás Mineral Province (CMP), Pará, Brazil. (a) Map of faults/fractures was produced by interpretation of shaded-relief images derived from the 30 m resolution Shuttle Radar Topographic Mission (SRTM) (b) Geological Complexity map of CMP.
-![Geological Complexity Results](https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/GeologicalComplexity/imgs/GeolocalComplexity_Results.png "Geological Complexity Results")    
+![Geological Complexity Results](https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/GeologicalComplexity/imgs/GeoComplex_Result.png "Geological Complexity Results")    
 
 ### SMOTE
 Mineral Prospectivity Model Flowchart
