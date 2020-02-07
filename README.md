@@ -46,11 +46,11 @@ Success-rate and prediction-rate curves of CMP Cu-Au prospectivity models. (a) S
 ![Geological Complexity Methodology](https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/GeologicalComplexity/imgs/Hodkiewicz.png)
 #### References
 - Ford, A., Blenkinsop, T.G., 2008. Evaluating geological complexity and complexity gradients as controls on copper mineralisation, Mt Isa Inlier. Aust. J. Earth Sci. 55, 13–23.
-- Hodkiewicz, P., 2003, The Interplay Between Physical and Chemical Processes in the Formation of World-Class Orogenic Gold Deposits in the Eastern Goldfields Province , Western Australia.
+- Hodkiewicz, P., 2003, The Interplay Between Physical and Chemical Processes in the Formation of World-Class Orogenic Gold Deposits in the Eastern Goldfields Province, Western Australia.
 ### SMOTE
-![SMOTE pseudo-code](https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/SMOTE/imgs/Chawla_SMOTE.png)
-#### References
-- Chawla, N., Bowyer, K.W., Hall, L.O., Kegelmeyer, W.P., 2002. SMOTE: Synthetic minority over-sampling technique. J. Artif. Intell. Res. 16, 321–357. https://doi.org/10.1613/jair.953
+Check work of [Chawla et al. (2002)](https://doi.org/10.1613/jair.953) for detail on methodology, and the [imbalanced-learn](https://imbalanced-learn.readthedocs.io/en/stable/user_guide.html)<sup>1</sup> page for details on SMOTE algorithm implementation    
+
+<sup>1</sup>*Chawla, N., Bowyer, K.W., Hall, L.O., Kegelmeyer, W.P., 2002. SMOTE: Synthetic minority over-sampling technique. J. Artif. Intell. Res. 16, 321–357. https://doi.org/10.1613/jair.953*
 ## Instructions
 ### Geological Complexity
 > This algorithm was implemented using `jupyter notebook`
@@ -132,4 +132,4 @@ If you use our code for your own research, we would be grateful if you cite our 
 
 ## Acknowledgement
 The code used for Geological Complexity is based on the works [Ford and Blenkinsop (2008)](https://www.tandfonline.com/doi/full/10.1080/08120090701581364) and [Hodkiewicz (2003)](https://research-repository.uwa.edu.au/en/publications/the-interplay-between-physical-and-chemical-processes-in-the-form)    
-and the code used for SMOTE is based on the work [Chawla et al. (2002)](https://arxiv.org/pdf/1106.1813.pdf).
+and the code used for SMOTE is based on the work [imbalanced-learn](https://imbalanced-learn.readthedocs.io/).
