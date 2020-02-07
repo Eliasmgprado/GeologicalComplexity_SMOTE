@@ -14,12 +14,12 @@ with implementation of Geological complexity and SMOTE algorithms.
 ## Results
 ### Geological Complexity
 Geological Complexity Map of Carajás Mineral Province (CMP), Pará, Brazil. (a) Map of faults/fractures was produced by interpretation of shaded-relief images derived from the 30 m resolution Shuttle Radar Topographic Mission (SRTM) (b) Geological Complexity map of CMP.   
-<img align="left" width="100%" height="100%" src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/GeologicalComplexity/imgs/GeolocalComplexity_Results.png"/><br>
+<img align="left" width="100%" height="100%" src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/GeologicalComplexity/imgs/GeolocalComplexity_Results.png"/><br/>
 
 
 ### SMOTE
 Mineral Prospectivity Model Flowchart    
-<img align="left" width="100%" height="100%" src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/SMOTE/imgs/Fig4_flowchart.jpg"/><br>
+<img align="left" width="100%" height="100%" src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/SMOTE/imgs/Fig4_flowchart.jpg"/><br/><br/>
 
 
 Training F1 scores of SVM models. The scores are arranged by over-sampling/under-sampling rates used to generate the training data points. Models with tendency to over-fit and under-fit are highlighted inside dashed contours. Models trained with same number of mineralized and non-mineralized samples are highlighted in purple.   
