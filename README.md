@@ -1,11 +1,12 @@
 # Geological Complexity (Fractal Dimension) and SMOTE
-Implementation and Data repository for
+Code repository for
 **Modeling of Cu-Au Prospectivity in the Carajás mineral province (Brazil) through Machine Learning: Dealing with Imbalanced Training Data**
+with implementation of Geological complexity and SMOTE algorithms.
 ## Authors
-[Elias M. G. Prado](mailto:lukas.mosser15@imperial.ac.uk) [Twitter](https://twitter.com/porestar)<sup>1,2</sup>  
-[Carlos Roberto de Souza Filho](https://www.imperial.ac.uk/people/o.dubrule)<sup>2</sup>  
-[Emmanuel John M. Carranza](https://www.imperial.ac.uk/people/m.blunt)<sup>3</sup>  
-[João Gabriel Motta](https://www.imperial.ac.uk/people/m.blunt)<sup>2</sup>  
+[Elias M. G. Prado](mailto:elias.prado@cprm.gov.br), [Linkedin](https://www.linkedin.com/in/elias-martins-guerra-prado-2b919055/)<sup>1,2</sup>  
+[Carlos Roberto de Souza Filho](https://portal.ige.unicamp.br/en/faculty/carlos-roberto-de-souza-filho)<sup>2</sup>  
+[Emmanuel John M. Carranza](https://www.ukzn.ac.za/inaugural-lectures/inauglec-2018/emmanuel-john-m-carranza/)<sup>3</sup>  
+[João Gabriel Motta]()<sup>2</sup>  
 <sup>1</sup>*Centre for Technological Development, Geological Survey of Brazil - CPRM*  
 <sup>2</sup>*Institute of Geosciences, University of Campinas - UNICAMP*  
 <sup>3</sup>*Department of Geology, University of KwaZulu-Natal*  
