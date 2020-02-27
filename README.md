@@ -17,9 +17,9 @@ Geological Complexity Map of Carajás Mineral Province (CMP), Pará, Brazil. (a)
 ![Geological Complexity Results](https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/GeologicalComplexity/imgs/GeoComplex_Result.png "Geological Complexity Results")    
 
 ## Methodology
-![Geological Complexity Methodology](https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/GeologicalComplexity/imgs/Hodkiewicz.png)
-
 The algorithm used for calculating geological complexity was written in Python 3 by Elias Martins Guerra Prado. The algorithm is based on the program developed by Stephan Gardoll, published in Hodkiewicz (2003), to compute fractal dimension, which is based on the box-counting methodology of Hirata (1989). The advantage of this implementation compared to others is that the box-counting calculus is done using matrices (rasters) instead of spatial vectors, considerably reducing the time to compute the fractal dimension for each pixel.
+
+![Geological Complexity Methodology](https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/GeologicalComplexity/imgs/Hodkiewicz.png)
 
 A brief description of the input parameters is given below:
 1.	Polygon shapefile with work area boundaries. This polygon defines the limits of the geological complexity map.
