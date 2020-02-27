@@ -18,6 +18,25 @@ Geological Complexity Map of Carajás Mineral Province (CMP), Pará, Brazil. (a)
 
 ## Methodology
 ![Geological Complexity Methodology](https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/GeologicalComplexity/imgs/Hodkiewicz.png)
+
+The algorithm used for calculating geological complexity was written in Python 3 by Elias Martins Guerra Prado. The algorithm is based on the program developed by Stephan Gardoll, published in Hodkiewicz (2003), to compute fractal dimension, which is based on the box-counting methodology of Hirata (1989). The advantage of this implementation compared to others is that the box-counting calculus is done using matrices (rasters) instead of spatial vectors, considerably reducing the time to compute the fractal dimension for each pixel.
+
+A brief description of the input parameters is given below:
+1.	Polygon shapefile with work area boundaries. This polygon defines the limits of the geological complexity map.
+2.	Grid spacing. Distance between the points of the fractal dimension grid. The location of each point of the grid defines the center of a fractal box. In this study, there is a 5 km spacing between grid points.
+3.	Polyline shapefile with geological contacts and/or faults/fractures. These linear features are sampled by the box-counting method to measure the fractal dimension. In this study, both geological contacts and faults/fractures were used.
+4.	Initial box size around each grid point. The initial pixel size used to rasterize the input line features. In this study, a 5 km initial box size was used.
+5.	Number of box count levels calculated. The number of times the initial pixel size will be halved. In this study, a five-level box count was used, resulting in box sizes of 5 km, 2.5 km, 1.25 km and 0.625 km
+
+The program output is a raster produced by the interpolation of the fractal dimension for each grid point. The interpolation is done using a two-dimensional minimum curvature spline technique (the resulting surface passes precisely through the input points). 
+To compute the geological complexity the algorithm uses the following procedure:
+1.	First, the work area shapefile (input #1) is transformed into a raster with a pixel size equal to the grid spacing (input #2).
+2.	The work area raster is then converted to a point shapefile, where each point is placed in the center of each pixel. This shapefile is used as the grid for computing the fractal dimensions.
+3.	Then, the input line features (input parameter #3) is transformed into a binary raster, where pixels with value 1 indicate the presence of a feature. One raster is created for each box count level (input #5). The pixel size of the first raster is equal to the initial box size parameter (input #4). The pixel size of the other raster files is calculated by halving the initial pixel size N-1 times, where N is the number of box count levels (input #5). 
+4.	The fractal dimension for each point of the grid is then determined by computing the sum of the pixels inside a square window, with side equal to two times the initial box size (input #4), centered at the grid point. 
+5.	To determine the fractal dimension at each pixel, the slope of the line on a log-log plot of box size (pixel size) and box count result (sum of pixels for each pixel size). The value of the fractal dimension is then assigned to the corresponding grid point.
+6.	Finally, the fractal dimension grid is interpolated using a spline function. 
+
 ### References
 - Ford, A., Blenkinsop, T.G., 2008. Evaluating geological complexity and complexity gradients as controls on copper mineralisation, Mt Isa Inlier. Aust. J. Earth Sci. 55, 13–23.
 - Hodkiewicz, P., 2003, The Interplay Between Physical and Chemical Processes in the Formation of World-Class Orogenic Gold Deposits in the Eastern Goldfields Province, Western Australia.
