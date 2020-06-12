@@ -2,6 +2,9 @@
 Code repository for
 **Modeling of Cu-Au Prospectivity in the Carajás mineral province (Brazil) through Machine Learning: Dealing with Imbalanced Training Data**
 with implementation of Geological complexity and SMOTE algorithms.
+
+[Link to article](https://www.sciencedirect.com/science/article/pii/S0169136819308819)
+
 ## Authors
 [Elias M. G. Prado](mailto:elias.prado@cprm.gov.br), [ResearchGate](https://www.researchgate.net/profile/Elias_Prado3)<sup>1,2</sup>  
 [Carlos Roberto de Souza Filho](https://portal.ige.unicamp.br/en/faculty/carlos-roberto-de-souza-filho)<sup>2</sup>  
@@ -149,11 +152,16 @@ cd GeologicalComplexity_SMOTE
 ## Citation
 If you use our code for your own research, we would be grateful if you cite our publication
 ```
-@article{EliasPrado2020,
-	title={Modeling of Cu-Au Prospectivity in the Carajás mineral province (Brazil) through Machine Learning: Dealing with Imbalanced Training Data},
-	author={Prado, E.M.G. and Souza Filho, C.R. and Carranza, E.J.M. and Motta, J.G.},
-	journal={Ore Geology Reviews},
-	year={2020}
+@article{MARTINSGUERRAPRADO2020103611,
+title = "Modeling of Cu-Au Prospectivity in the Carajás mineral province (Brazil) through Machine Learning: Dealing with Imbalanced Training Data",
+journal = "Ore Geology Reviews",
+pages = "103611",
+year = "2020",
+issn = "0169-1368",
+doi = "https://doi.org/10.1016/j.oregeorev.2020.103611",
+url = "http://www.sciencedirect.com/science/article/pii/S0169136819308819",
+author = "Elias [Martins Guerra Prado] and Carlos [Roberto de Souza Filho] and Emmanuel [John M. Carranza] and João [Gabriel Motta]",
+abstract = "Machine learning (ML) is becoming an appealing tool in various fields of Earth Sciences, especially in mineral prospectivity mapping (MPM) to support mineral exploration. ML algorithms are designed to assume a relatively balanced amount of training data for the estimation of the decision boundaries between the classes of interest (i.e., in MPM: mineralized- and non-mineralized locations). However, in MPM the numbers of mineralized and non-mineralized locations are naturally imbalanced, as the number of known mineral deposit occurrences (as a proxy of mineralized or positive class) are naturally much smaller than the number of non-mineralized locations (the negative class). The use of imbalanced data leads to difficulties in the training of ML models for MPM, due to the learning bias towards the features of the predominant (i.e., negative) class. In the present study, using support vector machine for Cu-Au prospectivity modeling in the Carajás mineral province (Brazil), we evaluated the effects of Synthetic Minority Over-sampling Technique (SMOTE), which addresses the issue of imbalanced training data on the performance of MPM. The original training data for the positive (i.e., minority) class was modified by over-sampling the mineralized locations using SMOTE and by randomly under-sampling the non-mineralized locations at different proportions, producing 400 training datasets with proportions of mineralized-to-non-mineralized samples ranging from 600:30 to 30:600. Each of these individual training datasets was used to evaluate the performance of MPM under different proportions of mineralized-to-non-mineralized samples. The performance of each prospectivity model was objectively evaluated using the F1 score and the success-rate curve. The results show that SMOTE can significantly increase the performance and the spatial efficiency of MPM. The main differences between the performances of the derived prospectivity models illustrate the sensitivity of MPM to the number of samples and distribution of classes in the training data. According to the results, better performance is achieved using SMOTE when the prospectivity models are trained with an equal number of mineralized and non-mineralized samples. The best prospectivity model trained with a modified dataset with 600:600 proportion of mineralized to non-mineralized samples resulted in 100% classification of the training mineralized locations and almost 80% of the testing mineralized locations, and outlined only 7% of the study area as prospective."
 }
 ```
 
