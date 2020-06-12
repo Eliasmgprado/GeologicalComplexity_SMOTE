@@ -75,30 +75,26 @@ cd GeologicalComplexity_SMOTE
 # SMOTE
 ## Results
 Mineral Prospectivity Model Flowchart
-![Model Flowchart](https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/SMOTE/imgs/Fig4_flowchart.jpg "Model Flowchart")    
-    
+[Fig 4 of article](https://www.sciencedirect.com/science/article/pii/S0169136819308819)
     
 Training F1 scores of SVM models. The scores are arranged by over-sampling/under-sampling rates used to generate the training data points. Models with tendency to over-fit and under-fit are highlighted inside dashed contours. Models trained with same number of mineralized and non-mineralized samples are highlighted in purple.
-<p align="center">
-<img align="center" src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/SMOTE/imgs/Fig5_SVM_heatmaps_f1_train.jpg" width="800" /></p>    
+[Fig 5 of article](https://www.sciencedirect.com/science/article/pii/S0169136819308819)
 
 
 Testing F1 scores of SVM models. The scores are arranged by over-sampling/under-sampling rates used to generate the training data points. Models with tendency to over-fit and under-fit are highlighted inside dashed contours. Models trained with same number of mineralized and non-mineralized samples are highlighted in purple.
-<p align="center">
-<img src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/SMOTE/imgs/Fig6_SVM_heatmaps_f1_test.jpg" width="800" /></p>    
+[Fig 6 of article](https://www.sciencedirect.com/science/article/pii/S0169136819308819)  
 
 
 Success-rate curves of SVM-based prospectivity models derived using training data (a) with fixed under-sampling rate of 5% for non-mineralized samples and variable over-sampling rates for mineralized samples ranging from 100-2000%, (b) with fixed over-sampling rate of 100% for mineralized samples and variable under-sampling rates for non-mineralized samples ranging from 5%-100%, and (c) with same number of mineralized and non-mineralized samples. The rate between mineralized and non-mineralized locations for each model is shown in the legend in brackets.
-<p align="center">
-<img align="center" src="https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/SMOTE/imgs/Fig7_Models_CAPPs.jpg" width="600" /></p>    
+[Fig 7 of article](https://www.sciencedirect.com/science/article/pii/S0169136819308819) 
 
 
 Success-rate and prediction-rate curves of CMP Cu-Au prospectivity models. (a) SVM model trained with 2000% over-sampling rate of mineralized class and 100% under-sampling rate of non-mineralized class (balanced class distribution). (b) SVM model trained without over-sampling of mineralized class (100% over-sampling rate) and without under-sampling non-mineralized class (100% under-sampling rate). (c) SVM model trained without over-sampling of mineralized class (100% over-sampling rate) and 5% under-sampling rate of non-mineralized class (balanced class distribution). (d) WofE model trained with the same input features of the SVM models and the original training mineralized locations. Vertical lines highlight which proportion of Carajás area predicted as prospective for Cu-Au deposits covers 100% of training/test (success-rate/prediction-rate) Cu-Au mineralized locations.
-![CAPPS](https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/SMOTE/imgs/Fig8_capp.jpg "CAPPS")    
+[Fig 8 of article](https://www.sciencedirect.com/science/article/pii/S0169136819308819)
 
 
 (a) Predictive map for Cu-Au prospectivity obtained by a SVM model trained with 2000% over-sampling rate and 100% under-sampling rate of mineralized and non-mineralized samples, respectively. The map is colored according to the hyperplane distance (distance from the feature vector to the surface computed by the SVM model that defines the boundaries between classes), which is directly proportional to the predicted likelihood of finding a Cu-Au deposit. Dashed polygons in red highlight zones that could be prioritized for Cu-Au exploration according to the interpretation of the prospectivity map. (b) The same predictive map with the target variables used to train and test the model plotted.
-![Prospectivity Map](https://github.com/Eliasmgprado/GeologicalComplexity_SMOTE/blob/master/SMOTE/imgs/Fig9_Final%20Model.jpg "Prospectivity Map")    
+[Fig 9 of article](https://www.sciencedirect.com/science/article/pii/S0169136819308819)
 
 ## Methodology
 Check work of [Chawla et al. (2002)](https://doi.org/10.1613/jair.953) for detail on methodology, and the [imbalanced-learn](https://imbalanced-learn.readthedocs.io/en/stable/user_guide.html)<sup>1</sup> page for details on SMOTE algorithm implementation    
