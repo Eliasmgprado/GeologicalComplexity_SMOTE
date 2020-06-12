@@ -2,10 +2,9 @@
 Code repository for
 **Modeling of Cu-Au Prospectivity in the Carajás mineral province (Brazil) through Machine Learning: Dealing with Imbalanced Training Data**
 with implementation of Geological complexity and SMOTE algorithms.
-`
-[Link to article](https://www.sciencedirect.com/science/article/pii/S0169136819308819)
-[DOI - https://doi.org/10.1016/j.oregeorev.2020.103611](https://doi.org/10.1016/j.oregeorev.2020.103611)
-`
+>[Link to article](https://www.sciencedirect.com/science/article/pii/S0169136819308819)
+>[DOI - https://doi.org/10.1016/j.oregeorev.2020.103611](https://doi.org/10.1016/j.oregeorev.2020.103611)
+
 
 ## Authors
 [Elias M. G. Prado](mailto:elias.prado@cprm.gov.br), [ResearchGate](https://www.researchgate.net/profile/Elias_Prado3)<sup>1,2</sup>  
